@@ -2,6 +2,7 @@ schema:
 - gql/schema.graphql
 exec:
   filename: gql/gen/generated.go
+  package: generated
 model:
   filename: model/models.go
 resolver:

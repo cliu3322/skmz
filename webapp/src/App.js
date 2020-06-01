@@ -44,6 +44,7 @@ export class App extends Component {
     }
 
     render() {
+        console.log('asdfasdfs')
         return <div className="container collection">
             <SearchBox search={this.state.search} updateSearch={this.updateSearch}/>
             <Programmers programmers={this.state.programmers}

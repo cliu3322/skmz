@@ -2,6 +2,10 @@ package main
 
 import (
 	"context"
+	"log"
+	"net/http"
+	"os"
+
 	"github.com/99designs/gqlgen/handler"
 	"github.com/shpota/skmz/cors"
 	"github.com/shpota/skmz/db"
@@ -9,9 +13,6 @@ import (
 	"github.com/shpota/skmz/gql/gen"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"log"
-	"net/http"
-	"os"
 )
 
 func main() {
